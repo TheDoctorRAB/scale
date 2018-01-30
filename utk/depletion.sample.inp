@@ -1,0 +1,14 @@
+'1 MTU at 3.25% enrichment for 300 days at 30 MW
+'Decay for 10 years
+=origen
+case(rad){
+lib{ file="myInterpLib.f33" pos=1 }
+    time=[ 8I 10 300 ]
+    power=[ 10R 30.0 ]  
+    mat{ units=GRAMS iso=[u235=32.5E3 u238=967.5E3] }
+}
+case(decay){
+    time{ t=[ 10L 1.0 10.0 ] units=YEARS }
+    save{ file="simple.f71" steps=ALL }
+}
+end

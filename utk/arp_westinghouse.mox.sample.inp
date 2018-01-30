@@ -1,0 +1,10 @@
+mox_w17x17 % Westinghouse 17x17 lattice with MOX fuel
+6.65 % initial Pu wt%
+58.5 % fissile Pu fraction
+1 % dummy entry
+3 % irradiation cycles
+400 400 350 % day cycle lengths
+40 35 30 % MW/MTU
+1 1 1 % library per cycle
+0.732 % moderator density
+mox_interpolated.f33 % file name

@@ -1,3 +1,3 @@
-# SCALE
+# ORIGEN
 
-Repository of input files and related data for SCALE simulations
+Repository of input files and related data for test origen simulations
