@@ -1,0 +1,10 @@
+=arp
+w17x17 % Westinghouse 17x17 lattice
+3.65 % initial enrichment
+3 % irradiation cycles
+400 400 350 % day cycle lengths
+40 35 30 % MW/MTU
+1 1 1 % library per cycle
+0.732 % moderator density
+w17_interpolated.f33 % file name
+end
